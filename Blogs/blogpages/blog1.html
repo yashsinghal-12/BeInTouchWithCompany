@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+</head>
+<style>
+    body {
+    font: 500 14px "Source Sans Pro";
+    color: #555353;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #373737;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+  }
+  
+  h4 {
+    font-size: 1.4em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    line-height: 1.9em;
+    margin: 2em 0;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .blog-post {
+    width: 80%;
+    max-width: 1100px;
+    background: white;
+    margin: 20px auto 0;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  }
+  
+ 
+  
+  summary {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  summary h3 {
+    width: 100%;
+    font-size: 2.5em;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  summary .blog-date {
+    width: 100%;
+    font-size: 15px;
+    padding-left: 2px;
+    color: #909090;
+  }
+  
+  article {
+    padding-bottom: 50px;
+  }
+  
+  .blog-content {
+    width: 55%;
+    margin: auto;
+  }
+  
+  .blog-img {
+    width: 60%;
+    height: 0;
+    margin: 50px auto 60px;
+    padding-bottom: 35%;
+    background: url("../blogpages/images/blog_1.jpg") center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .blog-img-caption {
+    position: absolute;
+    bottom: -30px;
+    font-size: 0.9em;
+    color: #888;
+    left: 4%;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  @media (min-width: 601px) and (max-width: 1000px) {
+    .blog-post {
+      width: 90%;
+    }
+  
+    .blog-content {
+      width: 75%;
+    }
+  
+    .blog-hero {
+      padding-bottom: 35%;
+    }
+  }
+  @media (max-width: 600px) {
+    .blog-post {
+      font-size: 0.9em;
+      width: 90%;
+    }
+  
+    .blog-content {
+      width: 80%;
+    }
+  
+    .blog-img {
+      width: 90%;
+      padding-bottom: 50%;
+    }
+  
+    .blog-hero {
+      padding-bottom: 60%;
+    }
+  }
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div class="blog-post">
+		<article>
+			
+			<div class="blog-content">
+				<summary>
+					<h3>Most three Visual Studio Code Extensions</h3>
+					<div class="blog-date">23 Dec 2016</div>
+				</summary>
+                <p>Recently I’ve run into a few simple things that are missing from Visual Studio Code out of the box. Here are the plugins I think everyone needs.
+                    1. toggle-upper-case
+                    I spend most of my time in full visual studio and use the case switching shortcut all the time. I was surprised that VS Code doesn’t have this shortcut built-in.
+                    The toggle-upper-case plugin does a great job of flipping between UPPERCASE and camelCase by hitting CTRL+U on the highlighted text.</p>
+			</div>
+			<div class="blog-img">
+				<div class="blog-img-caption"><b>Pictured</b> Some Cool Skyline</div>
+			</div>
+			<div class="blog-content">
+                <p>2. Sort for Visual Studio Code
+                    Often I like to sort parameters or other lines of code, another thing that’s missing a shortcut in VS Code.
+                    The Sort for Visual Studio Code plugin is great. Highlight some lines of code and press SHIFT+ALT+S and it’s sorted, press again to reverse.</p>
+
+                    <p>3. Todo Tree
+                        It’s great to keep track on TODOs in code. I’ve mentioned before about the use of the Better Comments plugin, which is great when you’re viewing a single file, but if you want to see all your TODOs in a list, then check out the Todo Tree Visual Studio Code plugin.
+                        This extension quickly searches your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the explorer pane.</p>
+
+			</div>	
+	</article>
+</div>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

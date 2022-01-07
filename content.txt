@@ -1,0 +1,25 @@
+1. quizz option
+2. path analyzer option
+3. connect to companies employee (optional)
+4. aptitude option and coding (product based and service based)
+5. faq -d
+6. test your knowlaedge
+7. query box
+8. comman chat room 
+9. get notified by industries experts or employee or member.
+10. match your skills to companies requirment 
+
+
+
+path
+name 
+course
+branch of course
+year of course
+technology you have learnt 
+problem soliving skills/ cp level
+service based or product based
+
+
+
+get and post method in php
